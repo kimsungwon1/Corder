@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnerPageActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_marginBottom="50dp">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button"
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="자리현황 확인/변경"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button"
+        android:id="@+id/btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="좌석 배치 변경"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button"
+        android:id="@+id/btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="가게 주문 확인"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button"
+        android:id="@+id/btn4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="카페 메뉴 등록/변경"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button"
+        android:id="@+id/btn5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="가게 정보 변경"
+        />
+
+</LinearLayout>

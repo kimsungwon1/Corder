@@ -8,10 +8,41 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Corder">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".OwnerCheckSeatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerCafeInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerInsertMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerOrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectDrinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectSeatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserCafeInfoActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

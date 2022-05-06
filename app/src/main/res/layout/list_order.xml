@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/orderlist"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/user"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="닉네임1"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="60dp"
+        android:layout_marginBottom="4dp"/>
+</LinearLayout>
