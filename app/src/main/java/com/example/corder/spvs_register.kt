@@ -1,7 +1,8 @@
-package com.kimm.corder
+package com.example.corder
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.corder.R
 
 class spvs_register : AppCompatActivity() {
     override  fun onCreate(savedInstanceState: Bundle?){
